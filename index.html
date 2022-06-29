@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list by cybersoul</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icons/web-site-icon.svg">
+</head>
+<body>
+    <div class="to-do">
+        <div class="to-do__header">
+            <p class="to-do__full-date"></p>
+            <h1 class="to-do__day"></h1>
+        </div>
+        <div class="to-do__body">
+            <div class="to-do__tasks tasks">
+                <div class="tasks__text">
+                    <h2>List of tasks</h2>
+                    <h4 class="tasks__counter"> <span></span></h4>
+                </div>
+                <div class="tasks__list">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="to-do__button">
+                <button>
+                    + New task
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="new-task">
+        <h3>Name your task:</h3>
+        <textarea id="tasksname" name="tasksname" cols="30" rows="10"></textarea>
+        <div class="new-task__buttons">
+            <button class="new-task__addition">
+                    Add task
+            </button>
+            <button class="new-task__cancel">
+                    Cancel
+            </button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+simple todo list
+
+1) full html + css done
+2) add animation 
